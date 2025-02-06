@@ -1,7 +1,3 @@
-Sure! Here's a simple `README.md` file for installing Nginx on Ubuntu with images. I'll also describe where images might be useful to enhance the documentation.
-
----
-
 # Nginx Installation on Ubuntu
 
 This guide will walk you through installing the latest Nginx on an Ubuntu machine. It includes all the necessary steps, from installing prerequisites to verifying the installation.
@@ -161,37 +157,3 @@ You have successfully installed Nginx on Ubuntu and are now ready to configure a
 
 ---
 
-### Images to Include
-
-1. **Step 1: Installing Prerequisites**
-   - Screenshot of the terminal running the `sudo apt install curl gnupg2 ca-certificates lsb-release ubuntu-keyring` command.
-
-2. **Step 2: Verifying the Key**
-   - A screenshot showing the output of the `gpg --dry-run` command, confirming the fingerprint.
-
-3. **Step 3: Adding Nginx Repository**
-   - A screenshot of running either the stable or mainline repository setup command.
-
-4. **Step 4: Pinning the Repository**
-   - Screenshot showing the configuration being added to the `/etc/apt/preferences.d/99nginx` file.
-
-5. **Step 5: Installing Nginx**
-   - Screenshot showing the installation process with the `sudo apt install nginx` command.
-
-6. **Step 6: Checking Nginx Status**
-   - A screenshot of the `sudo systemctl status nginx` command with an "active (running)" status.
-
-7. **Step 7: Verifying Nginx with curl**
-   - Screenshot of running the `curl http://localhost` command or showing the browser with the Nginx default page.
-
----
-
-### Saving the File as `README.md`
-
-Simply copy this content into a `README.md` file in your project folder, and feel free to add the images in the appropriate sections with markdown syntax like so:
-
-```markdown
-![Description of Image](path/to/image.png)
-```
-
-That’s it! This should make a helpful and comprehensive guide for installing Nginx on Ubuntu.# nginx-crash-course
